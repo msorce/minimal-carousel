@@ -1,2 +1,2 @@
 # minimal-carousel
-minimal pure javascript carousel written in es6
+minimal pure javascript swipe/click/drag carousel written in es6, supports mouse and touch events.
