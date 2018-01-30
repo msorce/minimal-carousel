@@ -42,8 +42,8 @@
             this.sliderEl.addEventListener('touchend', this.onEnd)
             this.sliderEl.addEventListener('mouseup', this.onEnd)
 
-            if (this.prevBtn) this.prevBtn.addEventListener('click', this.goToPrev)
-            if (this.nextBtn) this.nextBtn.addEventListener('click', this.goToNext)
+            this.prevBtn && this.prevBtn.addEventListener("click", this.goToPrev);
+            this.nextBtn && this.nextBtn.addEventListener("click", this.goToNext);
 
             Array.from(this.slideLinks)
                 .forEach(element => {
